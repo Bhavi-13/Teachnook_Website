@@ -1,4 +1,4 @@
-#root {
+/* #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -39,4 +39,20 @@
 
 .read-the-docs {
   color: #888;
+} */
+
+
+/* Add these styles to your CSS file */
+
+/* .menu-closed {
+  display: none;
 }
+
+.menu-open {
+  display: block;
+}
+
+/* Style for mobile menu icon */
+/*.mobile-menu-icon {
+  cursor: pointer;
+} */
