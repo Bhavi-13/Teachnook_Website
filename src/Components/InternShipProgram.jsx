@@ -1,5 +1,6 @@
 import React from 'react'
 import "../Style/internshipProgram.css"
+import internship from '../assets/internship-explore.webp'
 
 const InternShipProgram = () => {
   return (
@@ -43,7 +44,7 @@ const InternShipProgram = () => {
 
         </section>  
         <section className='mainInternshipBlock sub2'>
-          <img src="src/image/internship-explore.webp" alt="" />
+          <img src={internship} alt="" />
         </section>  
       </div>
       
