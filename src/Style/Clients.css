@@ -1,0 +1,37 @@
+.clients{
+    padding: 50px 150px;
+    background-color: rgb(250, 240, 243);
+}
+.clients h2{
+    text-align: center;
+    margin-bottom: 70px;
+}
+.clients .clientLogos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.clients .clientLogos img{
+    width: 120px;
+    height: 40px;
+}
+@media screen and (max-width: 768px){
+    .clients{
+        padding: 20px;
+    }
+    .clients h2{
+        text-align: center;
+        margin-bottom: 70px;
+    }
+    .clients .clientLogos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+    .clients .clientLogos img{
+        width: 150px;
+        height: 40px;
+    }
+}

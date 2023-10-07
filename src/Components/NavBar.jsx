@@ -16,7 +16,7 @@ const NavBar = () => {
         <section id="main_section">
             <div id="navbar">
                 <div id="logo">
-                    <a href="#"><img src="src/image/skill_cortex.jpg" alt="" id="c_name"/></a>
+                    <a href="/"><img src="src/image/skill_cortex.jpg" alt="" id="c_name"/></a>
                 </div>
                 <div className='list_components'>
                     <ul className={isMenuOpen ? "menu-open" : "menu-closed"}>

@@ -1,23 +1,30 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
+
 .mainSection3 {
-    width: 100%;
-     position: relative;
-     height: 157vh;
-   
+   margin: 20px 70px;
 }
 #mainSection3_image {
-    background-image: url('src/image/why.jpg');
-    background-position: center;
-    background-size: cover;
-    position: absolute;
     width: 100%;
     height:100%;
-   
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+}
+ @media screen and (max-width: 768px){
+    .mainSection3 {
+        display: none;
+        width: 0%;
+         height: 0vh;
+       
+    }
+    #mainSection3_image {
+        width: 10%;
+        display: none;
+        height:0%;
+        object-fit: contain;
+       
+    
+     }
  }
  /* #mainSection3_image .text {
     text-align: center;

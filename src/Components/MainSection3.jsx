@@ -7,6 +7,7 @@ const MainSection3 = () => {
         <div id='mainSection3_image'>
             <div className='text'>
                 {/* <h1>Why Choose Us?</h1> */}
+                <img src="src/image/why.jpg" alt="" />
             </div>
             {/* <section className='mainSection3 sub1'>
                 <div className='instructions'>

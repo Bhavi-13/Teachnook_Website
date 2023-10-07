@@ -1,0 +1,26 @@
+.experts{
+    text-align: center;
+    background-color: #222;
+    padding: 50px;
+    margin: 70px;
+    color: #fff;
+    border-radius: 5px;
+}
+.experts h2, .experts p{
+    margin-bottom: 20px;
+}
+.experts button{
+    background-color: rgb(249, 91, 33);
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    padding: 20px 50px;
+}
+@media screen and (max-width: 768px){
+   .experts{
+
+    margin: 0%;
+   }
+}
