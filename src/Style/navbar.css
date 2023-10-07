@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'roboto', sans-serif;
+}
+#home_main {
+    background-color: #FFFAEC;
+    position: relative;
+    width: 100%;
+    max-height: 400vh;
+}
+#main_section {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+#navbar {
+    width: 90%;
+    height:65px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5% 0;
+    background-color: #FFFF;
+    border-radius: 42px;
+    padding: 11px 55px;
+ }
+#c_name {
+    width: 100px;
+    height: 100px;
+    mix-blend-mode: exclusion;
+}
+div.logo {
+    width: 60%;
+}
+div.list_components  {
+    width: 40%;
+}
+
+div.list_components ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    font-weight: bold;
+}
+@media (max-width:750px) {
+  ul {
+    display: none;
+}
+}
+
+/* Mobile view styles */
+@media screen and (max-width: 750px) {
+    .navbarlistContainer {
+      display: none; /* Hide the menu on small screens */
+    }
+  }
+  
+  /* Laptop view styles */
+  @media screen and (min-width: 751px) {  
+    .navbarlistContainer {
+      display: block; 
+      /* Show the menu on medium to large screens */
+    }
+  }
+.navbarlistContainer:hover {
+  cursor: pointer;
+
+}
+
+  #mobileNavButton div {
+        width: 30px;
+         height: 2.5px;
+         background: black;
+         border-radius: 5px;
+  }
+
+  /* Style for mobile menu icon */
+  #mobileNavButton {
+    display: none;
+    cursor: pointer;
+
+  }
+  @media screen and (max-width:750px) {
+    #mobileNavButton {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        align-items: end;
+
+    }
+  }
+  
+
+  /* Add these styles to your CSS file */
+
+.menu-closed {
+  display: none;
+}
+
+.menu-open {
+  display: block;
+  /* width: 200px;
+  height: 200px;
+  border: 1px solid;
+ color: black; */
+}
+
+ 
+
+
+
