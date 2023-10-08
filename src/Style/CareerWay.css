@@ -1,8 +1,8 @@
 .career{
     background-color: #000;
     margin:0px 70px;
-    height: 500px;
-    padding-top: 50px;
+    height: max-content;
+    padding: 30px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -10,17 +10,91 @@
 }
 .career .wayImage{
     width: 600px;
+    padding: 10px;
+    background: linear-gradient(rgb(251, 237, 233),rgb(224, 167, 147),rgb(238, 229, 226));
 }
-.career .wayImage img{
-    width: 80%;
-    height: 400px;
-    margin-left: 0px;
+
+.career .wayImage .addressContent{
+    display: flex;
+    flex-direction: row;
+}
+.career .wayImage .addressContent .leftSide{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    gap: 20px;
+}
+.career .wayImage .addressContent .leftSide h2{
+    margin-left: 30px;
+}
+.career .wayImage .addressContent .leftSide .contact{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-weight: 600;
+   
+}
+.career .wayImage .addressContent .leftSide .contact span i{
+    font-size: 20px;
+    margin:0px 5px;
+}
+.career .wayImage .addressContent .leftSide .registerNow{
+    margin-left: 30px;
+    font-weight: 600;
+}
+.career .wayImage .addressContent .leftSide .registerImage img{
+    width: 150px;
+    margin-left: 30px;
+    border: 5px solid orange;
+    height: 150px;
+    border-radius: 50%;
     object-fit: cover;
 }
+.career .wayImage .addressContent .leftSide .logo img{
+    width: 240px;
+    margin-top: -70px;
+    height: 240px;
+    margin-bottom: -40px;
+    mix-blend-mode: exclusion;
+}
+
+.career .wayImage .addressContent .rightSide .bigImage img{
+    width: 300px;
+    height: 300px;
+    border: 5px solid orange;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.career .wayImage .addressContent .rightSide .admissions{
+    background-color: skyblue;
+    padding: 20px;
+    height: 150px;
+    width: 330px;
+    text-align: center;
+    margin-top: 40px;
+    border-radius: 50%;
+}
+.career .wayImage .addressContent .rightSide .admissions p{
+    font-size: 18px;
+    font-weight: 600;
+    margin: 10px 0px;
+}
+.career .wayImage .addressContent .rightSide .admissions span{
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.career .wayImage .addressContent .smallLogo img{
+    width: 100px;
+    height: 100px;
+    mix-blend-mode: exclusion;
+    margin: -20px 0 0 -80px;
+}
+
 .career .wayContent{
-    color: #fff;
     width: 630px;
-    margin-right: 20px;
+    color: #fff;
+    margin-top: 150px;
 }
 .career .wayContent h2{
    font-size: 24px;
@@ -69,7 +143,7 @@
     .career{
         margin: 0px;
         height: max-content;
-        padding-top: 10px;
+        padding: 10px;
         display: flex;
         flex-direction: column-reverse;
         justify-content: space-between;
@@ -77,15 +151,29 @@
     }
     .career .wayImage{
         width: 100%;
+        padding: 10px;
     }
-    .career .wayImage img{
+    
+    .career .wayImage .addressContent{
+        display: flex;
+        flex-direction: column;
+    }
+ 
+    .career .wayImage .addressContent .rightSide .admissions{
         width: 100%;
-        height: 300px;
-        margin-left: 0px;
+    }
+    
+    .career .wayImage .addressContent .smallLogo img{
+        display: none;
+    }
+    .career .wayImage .addressContent .rightSide .admissions{
+        padding: 27px;
+        width: 100%;
     }
     .career .wayContent{
-        width: 380px;
+        width: 330px;
         margin-right: 0px;
+        margin-top: 20px;
     }
     .career .wayContent h2{
        font-size: 20px;
@@ -114,7 +202,6 @@
         margin-left: 0px;
     }
     .career .wayContent .content .headContent p{
-        color: #F98541;
         margin: 0px;
         font-size: 10px;
         text-align: center;

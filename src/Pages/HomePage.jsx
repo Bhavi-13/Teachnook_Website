@@ -8,6 +8,7 @@ import InternshipProjectComponent from '../Components/InternshipProjectComponent
 import Clients from '../Components/Clients'
 import Experts from '../Components/Experts'
 import Footer from '../Components/Footer'
+import WhyUs from '../Components/WhyUs'
 
 
 
@@ -15,16 +16,16 @@ import Footer from '../Components/Footer'
 function HomePage() {
   return (
     <>
-        <NavBar/>
+        
         <MainSection1/>
         <CareerWay/>
-        <MainSection3/>
+        <WhyUs/>
         <InternShipProgram/>
         <HowWeWork/>
         <InternshipProjectComponent/>
         <Clients/>
         <Experts/>
-        <Footer/>
+       
     </>
   )
 }

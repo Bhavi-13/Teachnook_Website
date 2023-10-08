@@ -6,7 +6,7 @@
 #mainSection1 {
     background-image: url("src/image/Home_BG.png");
     display: flex;
-     background-position: center;
+   background-position: center;
     background-size: cover;
     padding: 0% 0% 10%;
 }

@@ -4,6 +4,9 @@
     margin: 20px 80px;
     padding: 30px;
 }
+.internship h1{
+    margin-bottom: 30px;
+}
 .course{
     display: flex;
     flex-direction: row;

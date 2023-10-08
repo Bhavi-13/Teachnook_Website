@@ -1,0 +1,47 @@
+.whyUs{
+    margin: 20px 80px;
+    display: flex;
+    height: max-content;
+    flex-direction: row;
+}
+.whyUs .whyUsContent{
+    width: 400px;
+    background-color: burlywood;
+    padding: 20px;
+}
+.whyUs .whyUsContent h1{
+    margin-bottom: 10px;
+    text-align: center;
+}
+.whyUs .whyUsContent p{
+    font-size: 17px;
+    text-align: justify;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+.whyUs .whyUsContent img{
+    width: 240px;
+    height: 300px;
+    mix-blend-mode:darken;
+    object-fit: cover;
+}
+.whyUs .certificate img{
+    width: 950px;
+}
+@media screen and (max-width: 768px){
+    .whyUs{
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .whyUs .whyUsContent{
+        width: 100%;
+    }
+    .whyUs .whyUsContent p{
+        font-size: 15px;
+    }
+    .whyUs .certificate img{
+        width: 100%;
+        height: 300px;
+    }
+}
